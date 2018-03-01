@@ -1,0 +1,8 @@
+li {
+	display: inline;
+}
+
+#topBar {
+	flex-direction: row;
+	display: flex;
+}
