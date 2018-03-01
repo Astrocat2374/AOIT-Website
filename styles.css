@@ -17,6 +17,9 @@ a {
 	padding: 14px 16px;
 	text-decoration: none;
 	text-align: center;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
 }
 
 a:hover {
@@ -31,37 +34,22 @@ a:hover {
 	border: none;
 }
 
-.dropdown-options {
+.dropdown {
 	position: relative;
 	display: inline-block;
 }
 
-.dropdown-options {
-	display: none;
-	position: absolute;
-	background-color: #f1f1f1;
-	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
+.active {
+	background-color: maroon;
 }
 
-.dropdown-options a {
-	color: black;
-	padding: 12px 16px;
-	text-decoration: none;
-	display: block;
+.dropdown-options {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
 }
 
 .dropdown:hover .dropdown-options {
 	display: block;
-}
-
-.searchbar {
-	float: right;
-	padding: 6px;
-	padding-right: 32px;
-	border: none;
-	margin-top: 8px;
-	margin-right: 16px;
-	font-size: 17px;
 }
