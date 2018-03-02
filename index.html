@@ -1,42 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="UTF-8">
+	<title>Waipahu Academy of Information Technology</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<script src="app.js"></script>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<title>AOIT Website</title>
 </head>
 <body>
-	<ul class = "navbar">
-		<a class = "active" href = "index.html">
-			Home
-		</a>
-		<a href = "about.html">
-			About
-		</a>
-		<a class = "dropdown">
-			<button id = "dropdown-button">
-				Academics
-			</button>
-			<div class = "dropdown-options">
-				<b href = "computer-programming.html">
-					Computer Programming
-				</b>
-				<b href = "computer-repair.html">
-					Computer Repair
-				</b>
-				<b href = "cyber.html">
-					Cyber Security
-				</b>
-				<b href = "networking.html">
-					Networking
-				</b>
-			</div>
-		</a>
-		<a href = "gallery.html">
-			Gallery
-		</a>
+	<ul id = "navBar">
+		<li><a class="on" href="index.html">Home</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="news.html">Academics</a></li>
+		<li><a href="contact.html">Gallery</a></li>
 	</ul>
+
+	<h1>
+		Waipahu Academy of Information Technology
+	</h1>
+
+	<div id="slidingImages">
+
+
+		<div class="slide">
+			<img class ="slider" src="http://is.oregonstate.edu/sites/is.oregonstate.edu/files/mcc130.jpg">
+		</div>
+
+		<div class="slide">
+			<img class="slider" src="https://blogsimages.adobe.com/creativecloud/files/2016/09/code-10.png">
+		</div>
+
+		<div class="slide">
+			<img class="slider" src ="https://i.stack.imgur.com/fsqyL.png">
+		</div>
+		
+		<a class="back" onclick="plusDivs(-1)">&#10094;</a>
+		<a class="next" onclick="plusDivs(1)">&#10095;</a>
+
+	</div>
+		
+	</p>
+
+	<p class="paragraph">
+		AOIT is dedicated to providing Waipahu High School students with the education needed to succeed in the IT field. Students get the opportunity to gain skills in programming, cybersecurity, networking, and more.
+	</p>
+
 </body>
 </html>
