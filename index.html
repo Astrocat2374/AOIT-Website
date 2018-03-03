@@ -10,35 +10,50 @@
 	<ul id = "navBar">
 		<li><a class="on" href="index.html">Home</a></li>
 		<li><a href="about.html">About</a></li>
-		<li><a href="news.html">Academics</a></li>
-		<li><a href="contact.html">Gallery</a></li>
+		<li><a href="academics.html">Academics</a></li>
+		<li><a href="news.html">News</a></li>
+		<li><a href="gallery.html">Gallery</a></li>
+		<li><a href="partners.html">Partners</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
 	</ul>
 
 	<h1>
 		Waipahu Academy of Information Technology
 	</h1>
 
-	<div id="slidingImages">
+	<div class = "slideshow">
 
-
-		<div class="slide">
-			<img class ="slider" src="http://is.oregonstate.edu/sites/is.oregonstate.edu/files/mcc130.jpg">
+		<div class = "slide">
+			<img src = "images/sldshw1">
+			<div class = "caption">
+				Caption 1
+			</div>
 		</div>
 
-		<div class="slide">
-			<img class="slider" src="https://blogsimages.adobe.com/creativecloud/files/2016/09/code-10.png">
+		<div class = "slide">
+			<img src = "images/sldshw2">
+			<div class = "caption">
+				Caption 2
+			</div>
 		</div>
 
-		<div class="slide">
-			<img class="slider" src ="https://i.stack.imgur.com/fsqyL.png">
+		<div class = "slide">
+			<img src = "images/sldshw3">
+			<div class = "caption">
+				Caption 3
+			</div>
 		</div>
-		
-		<a class="back" onclick="plusDivs(-1)">&#10094;</a>
-		<a class="next" onclick="plusDivs(1)">&#10095;</a>
+
+		<div class = "previous" onclick = "scroll(-1)">&#10094;</div>
+		<div class = "next" onclick = "scroll(-1)">&#10095;</div>
 
 	</div>
-		
-	</p>
+
+	<br>
+
+	<span class = "dot" onclick = "currentslide(1)"></span>
+	<span class = "dot" onclick = "currentslide(2)"></span>
+	<span class = "dot" onclick = "currentslide(3)"></span>
 
 	<p class="paragraph">
 		AOIT is dedicated to providing Waipahu High School students with the education needed to succeed in the IT field. Students get the opportunity to gain skills in programming, cybersecurity, networking, and more.
