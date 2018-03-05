@@ -1,0 +1,45 @@
+h1{
+  text-align: center;
+}
+#nav{
+	background-color: maroon;
+	font-size: 30px;
+	
+}
+.textnav{
+	text-decoration: none;
+	color: white;
+	
+}
+.textnav:hover{
+	background-color: red;
+}
+img{
+  height: 180px;
+  width: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  margin-bottom: 18px;
+}
+.column{
+  float: left;
+  width: 33.33%;
+  
+}
+.row{
+
+}
+.partner, .name, .career, .bio{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
