@@ -7,10 +7,19 @@
 	<script src="app.js"></script>
 </head>
 <body>
-	<ul id = "navBar">
+	<ul class = "navBar">
 		<li><a class="on" href="index.html">Home</a></li>
 		<li><a href="about.html">About</a></li>
-		<li><a href="academics.html">Academics</a></li>
+		<li><a href="academics.html">
+			<div class="dropdown">
+				<button class="dropbtn" href="academics.html">Academics</button>
+				<div class="dropdown-content">
+					<a href="#">Link 1</a>
+					<a href="#">Link 2</a>
+					<a href="#">Link 3</a>
+				</div>
+			</div>
+		</a></li>
 		<li><a href="news.html">News</a></li>
 		<li><a href="gallery.html">Gallery</a></li>
 		<li><a href="partners.html">Partners</a></li>
@@ -21,25 +30,25 @@
 		Waipahu Academy of Information Technology
 	</h1>
 
-	<div class = "slideshow">
+	<div class = "slideshow-container">
 
-		<div class = "slide">
-			<img src = "images/sldshw1">
-			<div class = "caption">
+		<div class = "mySlides fade">
+			<img src = "images/sldshw1.png" class = "slideshow-image">
+			<div class = "text">
 				Caption 1
 			</div>
 		</div>
 
-		<div class = "slide">
-			<img src = "images/sldshw2">
-			<div class = "caption">
+		<div class = "mySlides fade">
+			<img src = "images/sldshw2.png" class = "slideshow-image">
+			<div class = "text">
 				Caption 2
 			</div>
 		</div>
 
-		<div class = "slide">
-			<img src = "images/sldshw3">
-			<div class = "caption">
+		<div class = "mySlides fade">
+			<img src = "images/sldshw3.png" class = "slideshow-image">
+			<div class = "text">
 				Caption 3
 			</div>
 		</div>
