@@ -66,3 +66,22 @@ a:hover {
 	font-size: 17px;
 }
 
+.Pictures{
+	padding-left:20%;
+	padding-top:10%;
+	padding-bottom:auto;
+	padding-right:auto;
+	padding:auto;
+	
+}
+
+h1{
+	padding-left:41.7%;
+	padding-top:auto;
+	padding-bottom:auto;
+	padding-right:auto;
+	padding:auto;
+}
+p{
+padding-left:34%;
+}
