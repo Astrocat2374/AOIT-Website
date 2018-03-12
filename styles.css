@@ -1,21 +1,40 @@
-body {
+body{
     font-family: "Calibri";
 }
 
-.navbar {
-    overflow: hidden;
+/* Formatting the Navbar */
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     background-color: #383838;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
-.navbar a {
+li{
     float: left;
-    font-size: 16px;
+}
+
+li a{
+    display: block;
+    padding: 8px;
     color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-.dropdown {
-    
+li a:hover {
+    background-color: #000000;
 }
+
+.active{
+    background-color: #800000;
+}
+
+/* Formatting the slideshow */
