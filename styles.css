@@ -16,6 +16,15 @@ body {
     text-decoration: none;
 }
 
+
+li {
+	display: inline;
+}
+
 .dropdown {
     
+}
+
+#programming {
+	margin-top: 5%;
 }
