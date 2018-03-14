@@ -1,14 +1,76 @@
-.navbar {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #383838;
+body{
+    font-family: "Calibri";
 }
 
+/* Formatting the Navbar */
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #383838;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    padding: 8px;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+li {
+	display: inline;
+}
+
+.dropdown {
+    
+}
+
+#programming {
+	margin-top: 5%;
+}
+
+.courseImage {
+	width: 100%;
+	height: 15%;
+}
+
+li a:hover {
+    background-color: #000000;
+}
+
+img{
+    margin: auto;
+}
+
+.active{
+    background-color: #800000;
+}
+
+/* Formatting the slideshow */
+
+.caption{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-style: italic;
+    font-size: 25px;
+}
+
+<<<<<<< HEAD
 a {
 	float: left;
 	font-size: 20px;
@@ -17,45 +79,63 @@ a {
 	padding: 14px 16px;
 	text-decoration: none;
 	text-align: center; 
+=======
+.paragraph{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+>>>>>>> 5d4a8bd9981eb2ac4f39fc3e826ba20f8602c96d
 }
 
-a:hover {
-	background-color: #000000;
+.button{
+    color: #ffffff;
+    background-color: #800000;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 15px 25px;
+    margin: 4px 2px;
+    display: inline-block;
 }
 
-.dropdown-button {
-	background-color: #4CAF50;
-	color: white;
-	padding: 16px;
-	font-size: 16px;
-	border: none;
+.button:hover {
+    background-color: #600000;
 }
 
-.dropdown-options {
-	position: relative;
-	display: inline-block;
+.slide {
+    display: ;
 }
 
-.dropdown-options {
-	display: none;
-	position: absolute;
-	background-color: #f1f1f1;
-	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
+.slider {
+    width: 80%;
+    height: 650px;
 }
 
-.dropdown-options a {
-	color: black;
-	padding: 12px 16px;
-	text-decoration: none;
-	display: block;
+#slidingImages {
+    width: 100%;
+    position: relative;
+    margin: auto;
 }
 
-.dropdown:hover .dropdown-options {
-	display: block;
+.back, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: maroon;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    display: block;
+    background-color: #383838;
 }
 
+<<<<<<< HEAD
  .navbar input[type=text] {
 	float: right;
 	padding: 6px;
@@ -85,4 +165,9 @@ h1{
 }
 p{
 padding-left:34%;
+=======
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+>>>>>>> 5d4a8bd9981eb2ac4f39fc3e826ba20f8602c96d
 }
