@@ -41,7 +41,12 @@ li {
 }
 
 .courseImage {
-	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    border: 3px solid #800000;
+    padding: 10px;
+    width: 75%;
 	height: 15%;
 }
 
@@ -112,4 +117,27 @@ img{
 .logo {
     width: 40px;
     padding: 3px;
+
+}
+
+#AOITCourses {
+	margin-top: 4%;
+	text-align: center;
+}
+
+#programming {
+	margin-top: 2%;
+	text-align: center;
+}
+
+#Aplus {
+	text-align: center;
+}
+
+#CyberSecurity {
+	text-align: center;
+}
+
+#CISCO {
+	text-align: center;
 }
