@@ -34,5 +34,11 @@ h1{
 }
 .company{
 text-align: center;
+background-color: maroon;
 }
 
+@media screen and (max-width: 600px){
+  .whole{
+    column-count: 1;
+  }
+}
