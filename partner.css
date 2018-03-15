@@ -14,7 +14,7 @@ h1{
 .textnav:hover{
 	background-color: red;
 }
-img{
+.pic{
   height: 180px;
   width: 180px;
   display: table;
@@ -25,13 +25,14 @@ img{
 }
 
 
-#whole{
+.whole{
   column-count: 3;
 }
 
 .partner, .name, .career, .bio{
 	text-align: center;
-  color: red;
 }
-
+.company{
+text-align: center;
+}
 
