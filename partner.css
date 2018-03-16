@@ -41,4 +41,7 @@ background-color: maroon;
   .whole{
     column-count: 1;
   }
+  .company{
+    background-color: white;
+  }
 }
