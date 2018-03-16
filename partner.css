@@ -1,0 +1,47 @@
+#heading{
+  text-align: center;
+}
+#nav{
+	background-color: maroon;
+	font-size: 30px;
+	
+}
+.textnav{
+	text-decoration: none;
+	color: white;
+	
+}
+.textnav:hover{
+	background-color: red;
+}
+.pic{
+  height: 180px;
+  width: 180px;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  margin-bottom: 18px;
+}
+
+
+.whole{
+  column-count: 3;
+}
+
+.partner, .name, .career, .bio{
+	text-align: center;
+}
+.company{
+text-align: center;
+background-color: gray;
+}
+
+@media screen and (max-width: 600px){
+  .whole{
+    column-count: 1;
+  }
+  .company{
+    background-color: white;
+  }
+}
