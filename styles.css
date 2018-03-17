@@ -115,9 +115,13 @@ img{
 }
 
 .logo {
-    width: 40px;
-    padding: 3px;
+    height: 46px;
+    
 
+}
+
+.logo-location {
+    background-color: #800000
 }
 
 #AOITCourses {
