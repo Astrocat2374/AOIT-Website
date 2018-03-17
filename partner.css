@@ -1,19 +1,7 @@
 #heading{
   text-align: center;
 }
-#nav{
-	background-color: maroon;
-	font-size: 30px;
-	
-}
-.textnav{
-	text-decoration: none;
-	color: white;
-	
-}
-.textnav:hover{
-	background-color: red;
-}
+
 .pic{
   height: 180px;
   width: 180px;
