@@ -36,20 +36,6 @@ li {
 	display: inline;
 }
 
-#programming {
-	margin-top: 5%;
-}
-
-.courseImage {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-    border: 3px solid #800000;
-    padding: 10px;
-    width: 75%;
-	height: 15%;
-}
-
 li a:hover {
     background-color: #000000;
 }
@@ -128,7 +114,7 @@ img{
 }
 
 #programming {
-	margin-top: 2%;
+	margin-top: 1%;
 	text-align: center;
 }
 
