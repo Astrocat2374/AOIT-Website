@@ -157,13 +157,19 @@ a {
     margin-left:40px;
 }
 
-.news-item{
+.news-item {
     display: inline;
 }
 
-p{
-    margin-bottom:;
-    margin-left:;
-    margin-right:;
-    margin-top:; 
+.Heading{
+   text-align:left;
+   text-align:auto;
+   margin-left:400px;
+   margin-top:-190px;
+   padding-top:auto;
+   padding-left:auto;
+   padding:auto;
+   padding-right:auto;
+   padding-bottom:auto;
 }
+
