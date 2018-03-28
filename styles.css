@@ -109,7 +109,7 @@ img{
 /* Courses Page Styling */
 
 #AOITCourses {
-	margin-top: 4%;
+	margin-top: 5%;
 	text-align: center;
 }
 
@@ -130,18 +130,19 @@ img{
 	text-align: center;
 }
 
-#programming {
-	margin-top: 5%;
-}
-
 .courseImage {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
     border: 3px solid #800000;
     padding: 10px;
-    width: 75%;
-	height: 15%;
+    width: 65%;
+	height: 12%;
+}
+
+#footer {
+	font-style: italic;
+	text-align: center;
 }
 
 /* Courses Page Styling */
