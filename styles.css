@@ -36,20 +36,6 @@ li {
 	display: inline;
 }
 
-#programming {
-	margin-top: 5%;
-}
-
-.courseImage {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-    border: 3px solid #800000;
-    padding: 10px;
-    width: 75%;
-	height: 15%;
-}
-
 li a:hover {
     background-color: #000000;
 }
@@ -124,13 +110,15 @@ img{
     background-color: #800000
 }
 
+/* Courses Page Styling */
+
 #AOITCourses {
-	margin-top: 4%;
+	margin-top: 5%;
 	text-align: center;
 }
 
 #programming {
-	margin-top: 2%;
+	margin-top: 1%;
 	text-align: center;
 }
 
@@ -145,3 +133,20 @@ img{
 #CISCO {
 	text-align: center;
 }
+
+.courseImage {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    border: 3px solid #800000;
+    padding: 10px;
+    width: 65%;
+	height: 12%;
+}
+
+#footer {
+	font-style: italic;
+	text-align: center;
+}
+
+/* Courses Page Styling */
