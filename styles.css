@@ -175,6 +175,12 @@ a {
     margin-right:auto;
     margin-left:40px;
     border-width:3px;
+    position:relative;
+    position:static;
+    padding:auto;
+    display:block;
+
+
 
 }
 
@@ -182,6 +188,9 @@ a {
     display: inline;
     position:relative;
     position:static;
+    padding:auto;
+    margin:auto;
+    display:block;
 }
 
 .Heading{
@@ -194,10 +203,10 @@ a {
    padding:auto;
    padding-right:auto;
    padding-bottom:auto;
-}
+   position:relative;
+   position:static;
+   margin-bottom:auto;
+   margin-right:auto;
+   display:block;
 
-@media screen and (max-width: 500px) {
-    .news-item{
-        
-    }
 }
