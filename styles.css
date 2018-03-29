@@ -1,0 +1,203 @@
+body{
+    font-family: "Calibri";
+}
+
+/* Formatting the Navbar */
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #383838;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    padding: 14px 16px;
+    color: #ffffff;
+    text-align: center;
+    width: 80px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+li {
+    display: inline;
+}
+
+li a:hover {
+    background-color: #000000;
+}
+
+img{
+    margin: auto;
+}
+
+.active{
+    background-color: #800000;
+}
+
+.logo {
+    height: 46px;
+}
+
+.logo-location {
+    background-color: #800000
+}
+
+/* Formatting the slideshow */
+
+.caption{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-style: italic;
+    font-size: 25px;
+}
+
+a {
+    float: left;
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.paragraph{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+.slide {
+    display: ;
+}
+
+.slider {
+    width: 80%;
+    height: 650px;
+}
+
+#slidingImages {
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.back, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: maroon;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    display: block;
+    background-color: #000000;
+    opacity: 0.7;
+}
+
+ .navbar input[type=text] {
+    float: right;
+    padding: 6px;
+    padding-right: 32px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* Courses Page Styling */
+
+#AOITCourses {
+    margin-top: 5%;
+    text-align: center;
+}
+
+#programming {
+    margin-top: 1%;
+    text-align: center;
+}
+
+#Aplus {
+    text-align: center;
+}
+
+#CyberSecurity {
+    text-align: center;
+}
+
+#CISCO {
+    text-align: center;
+}
+
+.courseImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #800000;
+    padding: 10px;
+    width: 65%;
+    height: 12%;
+}
+
+#footer {
+    font-style: italic;
+    text-align: center;
+}
+
+/* Courses Page Styling */
+
+.thumbnail {
+    width: 23%;
+    margin-top:13%;
+    margin-bottom:auto;
+    margin-right:auto;
+    margin-left:40px;
+    border-width:3px;
+
+}
+
+.news-item {
+    display: inline;
+    position:relative;
+    position:static;
+}
+
+.Heading{
+   text-align:left;
+   text-align:auto;
+   margin-left:400px;
+   margin-top:-190px;
+   padding-top:auto;
+   padding-left:auto;
+   padding:auto;
+   padding-right:auto;
+   padding-bottom:auto;
+}
+
+@media screen and (max-width: 500px) {
+    .news-item{
+        
+    }
+}
