@@ -34,6 +34,24 @@ li {
     display: inline;
 }
 
+li {
+	display: inline;
+}
+
+#programming {
+	margin-top: 5%;
+}
+
+.courseImage {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    border: 3px solid #800000;
+    padding: 10px;
+    width: 75%;
+	height: 15%;
+}
+
 li a:hover {
     background-color: #000000;
 }
@@ -210,3 +228,41 @@ a {
    display:block;
 
 }
+
+@media screen and (max-width: 500px) {
+    .news-item{
+        
+    }
+
+.logo {
+    height: 46px;
+    
+
+}
+
+.logo-location {
+    background-color: #800000
+}
+
+#AOITCourses {
+	margin-top: 4%;
+	text-align: center;
+}
+
+#programming {
+	margin-top: 2%;
+	text-align: center;
+}
+
+#Aplus {
+	text-align: center;
+}
+
+#CyberSecurity {
+	text-align: center;
+}
+
+#CISCO {
+	text-align: center;
+}
+
