@@ -30,7 +30,9 @@ li a{
     font-size: 18px;
 }
 
-
+li {
+    display: inline;
+}
 
 li {
 	display: inline;
@@ -62,6 +64,14 @@ img{
     background-color: #800000;
 }
 
+.logo {
+    height: 46px;
+}
+
+.logo-location {
+    background-color: #800000
+}
+
 /* Formatting the slideshow */
 
 .caption{
@@ -70,6 +80,16 @@ img{
     padding-top: 10px;
     font-style: italic;
     font-size: 25px;
+}
+
+a {
+    float: left;
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
 }
 
 .paragraph{
@@ -107,11 +127,107 @@ img{
     border-radius: 0 3px 3px 0;
     display: block;
     background-color: #000000;
+    opacity: 0.7;
+}
+
+ .navbar input[type=text] {
+    float: right;
+    padding: 6px;
+    padding-right: 32px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
 }
 
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
+}
+
+/* Courses Page Styling */
+
+#AOITCourses {
+    margin-top: 5%;
+    text-align: center;
+}
+
+#programming {
+    margin-top: 1%;
+    text-align: center;
+}
+
+#Aplus {
+    text-align: center;
+}
+
+#CyberSecurity {
+    text-align: center;
+}
+
+#CISCO {
+    text-align: center;
+}
+
+.courseImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #800000;
+    padding: 10px;
+    width: 65%;
+    height: 12%;
+}
+
+#footer {
+    font-style: italic;
+    text-align: center;
+}
+
+/* Courses Page Styling */
+
+/* News Page Styling */
+.thumbnail {
+    width: 23%;
+    margin-top:13%;
+    margin-bottom:auto;
+    margin-right:auto;
+    margin-left:40px;
+    position:relative;
+    position:static;
+    padding:auto;
+    display:block;
+
+
+
+}
+
+.news-item {
+    display: inline;
+    position:relative;
+    position:static;
+    padding:auto;
+    margin:auto;
+    display:block;
+    border-width:3px;
+    border-color:red;
+}
+
+.Heading{
+   text-align:left;
+   text-align:auto;
+   margin-left:400px;
+   margin-top:-190px;
+   padding-top:auto;
+   padding-left:auto;
+   padding:auto;
+   padding-right:auto;
+   padding-bottom:auto;
+   position:relative;
+   position:static;
+   margin-bottom:auto;
+   margin-right:auto;
+   display:block;
 }
 
 .logo {
@@ -124,34 +240,3 @@ img{
     background-color: #800000
 }
 
-/* Courses Page Styling */
-
-#AOITCourses {
-	margin-top: 4%;
-	text-align: center;
-}
-
-#programming {
-	margin-top: 2%;
-	text-align: center;
-}
-
-#Aplus {
-	text-align: center;
-}
-
-#CyberSecurity {
-	text-align: center;
-}
-
-#CISCO {
-	text-align: center;
-}
-
-#footer {
-	text-align: center;
-	font-style: italic;
-}
-
-
-/* Courses Page Styling 8/
