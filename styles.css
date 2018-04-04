@@ -34,10 +34,6 @@ li {
     display: inline;
 }
 
-li {
-	display: inline;
-}
-
 #programming {
 	margin-top: 5%;
 }
@@ -240,4 +236,59 @@ a {
     background-color: #800000
 }
 
+
 /* news page styling ^ above */
+
+#AOITCourses {
+	margin-top: 4%;
+	text-align: center;
+}
+
+#programming {
+	margin-top: 2%;
+	text-align: center;
+}
+
+#Aplus {
+	text-align: center;
+}
+
+#CyberSecurity {
+	text-align: center;
+}
+
+#CISCO {
+	text-align: center;
+}
+
+/*+-+-+-+-+-+-+-+-+- Partner CSS +-+-+-+-+-+-+-+ */
+
+.pic{
+  height: 180px;
+  width: 180px;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  margin-bottom: 18px;
+}
+
+
+.whole{
+  column-count: 3;
+}
+
+.partner, .name, .career, .bio{
+    text-align: center;
+}
+.company{
+text-align: center;
+background-color: ;
+}
+
+@media screen and (max-width: 600px){
+  .whole{
+    column-count: 1;
+  }
+}
+
