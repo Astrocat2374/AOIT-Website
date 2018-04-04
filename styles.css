@@ -188,14 +188,13 @@ a {
 
 /* News Page Styling */
 .thumbnail {
-    width: 23%;
+    width: 20%;
     margin-top:13%;
     margin-bottom:auto;
     margin-right:auto;
-    margin-left:40px;
+    margin-left:-0.00090%;
     position:relative;
     position:static;
-    padding:auto;
     display:block;
     border:3px solid #800000;
 
@@ -207,7 +206,6 @@ a {
     display: inline;
     position:relative;
     position:static;
-    padding:auto;
     margin:auto;
     display:block;
    
@@ -216,13 +214,8 @@ a {
 .Heading{
    text-align:left;
    text-align:auto;
-   margin-left:400px;
+   margin-left:33%;
    margin-top:-190px;
-   padding-top:auto;
-   padding-left:auto;
-   padding:auto;
-   padding-right:auto;
-   padding-bottom:auto;
    position:relative;
    position:static;
    margin-bottom:auto;
