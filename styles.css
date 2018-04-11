@@ -145,6 +145,10 @@ img{
 #CISCO {
 	text-align: center;
 }
+#footer {
+    font-style: italic;
+    text-align: center;
+}
 
 /*+-+-+-+-+-+-+-+-+- Partner CSS +-+-+-+-+-+-+-+ */
 
