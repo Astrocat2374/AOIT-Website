@@ -30,10 +30,23 @@ li a{
     font-size: 18px;
 }
 
+.title {
+    text-align: center;
+}
 
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: 0.3;}
+    to {opacity: 1;}
+}
 
 li {
-	display: inline;
+    display: inline;
+
 }
 
 #programming {
@@ -62,6 +75,14 @@ img{
     background-color: #800000;
 }
 
+.logo {
+    height: 46px;
+}
+
+.logo-location {
+    background-color: #800000
+}
+
 /* Formatting the slideshow */
 
 .caption{
@@ -72,6 +93,16 @@ img{
     font-size: 25px;
 }
 
+a {
+    float: left;
+    font-size: 20px;
+    color: #ffffff;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
 .paragraph{
     padding-left: 30px;
     padding-right: 30px;
@@ -79,16 +110,16 @@ img{
 }
 
 .slide {
-    display: ;
+    display: none;
 }
 
 .slider {
-    width: 80%;
+    width: 100%;
     height: 650px;
 }
 
 #slidingImages {
-    width: 100%;
+    width: 80%;
     position: relative;
     margin: auto;
 }
@@ -100,18 +131,111 @@ img{
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: maroon;
+    color: #ffffff;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     display: block;
     background-color: #000000;
+    opacity: 0.7;
+}
+
+ .navbar input[type=text] {
+    float: right;
+    padding: 6px;
+    padding-right: 32px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
 }
 
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
+}
+
+/* Courses Page Styling */
+
+#AOITCourses {
+    margin-top: 5%;
+    text-align: center;
+}
+
+#programming {
+    margin-top: 1%;
+    text-align: center;
+}
+
+#Aplus {
+    text-align: center;
+}
+
+#CyberSecurity {
+    text-align: center;
+}
+
+#CISCO {
+    text-align: center;
+}
+
+.courseImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #800000;
+    padding: 10px;
+    width: 65%;
+    height: 12%;
+}
+
+#footer {
+    font-style: italic;
+    text-align: center;
+}
+
+/* Courses Page Styling */
+
+/* News Page Styling */
+p{
+    color:solid #800000;
+}
+
+.thumbnail {
+    width: 23%;
+    margin-top:13%;
+    margin-bottom:auto;
+    margin-right:auto;
+    margin-right:74%;
+    position:relative;
+    position:static;
+    display:block;
+    border:3px solid #800000;
+
+
+
+}
+
+.news-item {
+    display: inline;
+    position:relative;
+    position:static;
+    margin:auto;
+    display:block;
+   
+}
+
+.Heading{
+   text-align:left;
+   text-align:auto;
+   margin-left:33%;
+   margin-top:-190px;
+   position:relative;
+   position:static;
+   margin-bottom:auto;
+   margin-right:auto;
+   display:block;
 }
 
 .logo {
@@ -190,5 +314,3 @@ a{
     column-count: 1;
   }
 }
-
-/* */
