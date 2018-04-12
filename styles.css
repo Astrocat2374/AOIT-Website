@@ -30,12 +30,19 @@ li a{
     font-size: 18px;
 }
 
+
+
+
 .title {
     text-align: center;
 }
 
 .fade {
+
+  animation-name:fade;
+
   animation-name: fade;
+
   animation-duration: 1.5s;
 }
 
@@ -46,6 +53,12 @@ li a{
 
 li {
     display: inline;
+
+
+}
+li{
+    display: inline;
+
 
 }
 
@@ -94,7 +107,11 @@ img{
     font-size: 25px;
 }
 
+a {
+
+}
 .navbar-link {
+
     float: left;
     font-size: 20px;
     color: #ffffff;
@@ -103,6 +120,7 @@ img{
     text-decoration: none;
     text-align: center;
 }
+
 
 .paragraph{
     padding-left: 30px;
@@ -202,16 +220,34 @@ img{
 /* Courses Page Styling */
 
 /* News Page Styling */
+
+
+
 p{
     color:solid #800000;
 }
+
+
+
+
 
 .thumbnail {
     width: 23%;
     margin-top:13%;
     margin-bottom:auto;
     margin-right:auto;
+
+
     margin-right:74%;
+    position:relative;
+    position:static;
+    display:block;
+    border:3px solid #800000;
+
+    margin-left:40px;
+
+    margin-right:74%;
+
     position:relative;
     position:static;
     display:block;
@@ -225,16 +261,45 @@ p{
     display: inline;
     position:relative;
     position:static;
+
+
     margin:auto;
     display:block;
    
+
+    padding:auto;
+    margin:auto;
+    display:block;
+    border-width:3px;
+    border-color:red;
+
+
+    margin:auto;
+    display:block;
+   
+
 }
 
 .Heading{
    text-align:left;
    text-align:auto;
+
+
    margin-left:33%;
    margin-top:-190px;
+
+   margin-left:400px;
+   margin-top:-190px;
+   padding-top:auto;
+   padding-left:auto;
+   padding:auto;
+   padding-right:auto;
+   padding-bottom:auto;
+
+
+   margin-left:33%;
+   margin-top:-190px;
+
    position:relative;
    position:static;
    margin-bottom:auto;
@@ -276,6 +341,10 @@ p{
 #CISCO {
 	text-align: center;
 }
+#footer {
+    font-style: italic;
+    text-align: center;
+}
 
 /* Contact Us Styles */
 
@@ -313,7 +382,10 @@ p{
   border-radius: 50%;
   margin-bottom: 18px;
 }
-
+.column:hover{
+    background-color:#008080;
+    color: white;
+}
 
 .whole{
   column-count: 3;
@@ -325,6 +397,13 @@ p{
 .company{
 text-align: center;
 background-color: ;
+}
+
+.companyname{
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
 }
 
 @media screen and (max-width: 600px){
