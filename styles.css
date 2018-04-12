@@ -198,6 +198,14 @@ a {
 /* Courses Page Styling */
 
 /* News Page Styling */
+
+.newsLink{
+    color: black;
+    font-size:100%;
+    margin-top:-8%;
+    margin-left:-1.8%;
+}
+
 p{
     color:solid #800000;
 }
@@ -230,7 +238,7 @@ p{
    text-align:left;
    text-align:auto;
    margin-left:33%;
-   margin-top:-190px;
+   margin-top:-15%;
    position:relative;
    position:static;
    margin-bottom:auto;
