@@ -64,6 +64,7 @@ li {
 }
 
 li a:hover {
+    transition-duration: 500ms;
     background-color: #000000;
 }
 
@@ -71,7 +72,7 @@ img{
     margin: auto;
 }
 
-.active{
+#active{
     background-color: #800000;
 }
 
@@ -93,7 +94,7 @@ img{
     font-size: 25px;
 }
 
-a {
+.navbar-link {
     float: left;
     font-size: 20px;
     color: #ffffff;
@@ -137,8 +138,11 @@ a {
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     display: block;
-    background-color: #000000;
-    opacity: 0.7;
+    background-color: #00000000;
+}
+
+.back:hover, .next:hover {
+    background-color: #000000CC;
 }
 
  .navbar input[type=text] {
