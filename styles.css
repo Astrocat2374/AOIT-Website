@@ -36,7 +36,7 @@ li a{
 }
 
 .fade {
-  animation-name: fade;
+  animation-name:fade;
   animation-duration: 1.5s;
 }
 
@@ -48,8 +48,8 @@ li a{
 li {
     display: inline;
 
-
-li {
+}
+li{
     display: inline;
 
 }
@@ -235,26 +235,26 @@ p{
     display: inline;
     position:relative;
     position:static;
-<<<<<<< HEAD
+
     margin:auto;
     display:block;
    
-=======
+
     padding:auto;
     margin:auto;
     display:block;
     border-width:3px;
     border-color:red;
->>>>>>> 7f9ed733bb39950f49d421f6fb2128dda9431e3f
+
 }
 
 .Heading{
    text-align:left;
    text-align:auto;
-<<<<<<< HEAD
+
    margin-left:33%;
    margin-top:-190px;
-=======
+
    margin-left:400px;
    margin-top:-190px;
    padding-top:auto;
@@ -262,7 +262,7 @@ p{
    padding:auto;
    padding-right:auto;
    padding-bottom:auto;
->>>>>>> 7f9ed733bb39950f49d421f6fb2128dda9431e3f
+
    position:relative;
    position:static;
    margin-bottom:auto;
