@@ -97,7 +97,6 @@ img{
     font-style: italic;
     font-size: 25px;
 }
-
 a {
     float: left;
     font-size: 20px;
@@ -107,6 +106,7 @@ a {
     text-decoration: none;
     text-align: center;
 }
+
 
 .paragraph{
     padding-left: 30px;
