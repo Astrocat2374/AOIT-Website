@@ -30,6 +30,7 @@ li a{
     font-size: 18px;
 }
 
+
 .title {
     text-align: center;
 }
@@ -43,6 +44,10 @@ li a{
     from {opacity: 0.3;}
     to {opacity: 1;}
 }
+
+li {
+    display: inline;
+
 
 li {
     display: inline;
@@ -198,20 +203,29 @@ a {
 /* Courses Page Styling */
 
 /* News Page Styling */
+
 p{
     color:solid #800000;
 }
+
 
 .thumbnail {
     width: 23%;
     margin-top:13%;
     margin-bottom:auto;
     margin-right:auto;
+
     margin-right:74%;
     position:relative;
     position:static;
     display:block;
     border:3px solid #800000;
+
+    margin-left:40px;
+    position:relative;
+    position:static;
+    padding:auto;
+    display:block;
 
 
 
@@ -221,16 +235,34 @@ p{
     display: inline;
     position:relative;
     position:static;
+<<<<<<< HEAD
     margin:auto;
     display:block;
    
+=======
+    padding:auto;
+    margin:auto;
+    display:block;
+    border-width:3px;
+    border-color:red;
+>>>>>>> 7f9ed733bb39950f49d421f6fb2128dda9431e3f
 }
 
 .Heading{
    text-align:left;
    text-align:auto;
+<<<<<<< HEAD
    margin-left:33%;
    margin-top:-190px;
+=======
+   margin-left:400px;
+   margin-top:-190px;
+   padding-top:auto;
+   padding-left:auto;
+   padding:auto;
+   padding-right:auto;
+   padding-bottom:auto;
+>>>>>>> 7f9ed733bb39950f49d421f6fb2128dda9431e3f
    position:relative;
    position:static;
    margin-bottom:auto;
