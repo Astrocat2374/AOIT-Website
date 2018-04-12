@@ -31,12 +31,18 @@ li a{
 }
 
 
+
+
 .title {
     text-align: center;
 }
 
 .fade {
+
   animation-name:fade;
+
+  animation-name: fade;
+
   animation-duration: 1.5s;
 }
 
@@ -48,9 +54,11 @@ li a{
 li {
     display: inline;
 
+
 }
 li{
     display: inline;
+
 
 }
 
@@ -69,6 +77,7 @@ li{
 }
 
 li a:hover {
+    transition-duration: 500ms;
     background-color: #000000;
 }
 
@@ -76,7 +85,7 @@ img{
     margin: auto;
 }
 
-.active{
+#active{
     background-color: #800000;
 }
 
@@ -97,7 +106,12 @@ img{
     font-style: italic;
     font-size: 25px;
 }
+
 a {
+
+}
+.navbar-link {
+
     float: left;
     font-size: 20px;
     color: #ffffff;
@@ -142,8 +156,11 @@ a {
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     display: block;
-    background-color: #000000;
-    opacity: 0.7;
+    background-color: #00000000;
+}
+
+.back:hover, .next:hover {
+    background-color: #000000CC;
 }
 
  .navbar input[type=text] {
@@ -204,9 +221,14 @@ a {
 
 /* News Page Styling */
 
+
+
 p{
     color:solid #800000;
 }
+
+
+
 
 
 .thumbnail {
@@ -215,6 +237,7 @@ p{
     margin-bottom:auto;
     margin-right:auto;
 
+
     margin-right:74%;
     position:relative;
     position:static;
@@ -222,10 +245,13 @@ p{
     border:3px solid #800000;
 
     margin-left:40px;
+
+    margin-right:74%;
+
     position:relative;
     position:static;
-    padding:auto;
     display:block;
+    border:3px solid #800000;
 
 
 
@@ -235,6 +261,7 @@ p{
     display: inline;
     position:relative;
     position:static;
+
 
     margin:auto;
     display:block;
@@ -246,11 +273,17 @@ p{
     border-width:3px;
     border-color:red;
 
+
+    margin:auto;
+    display:block;
+   
+
 }
 
 .Heading{
    text-align:left;
    text-align:auto;
+
 
    margin-left:33%;
    margin-top:-190px;
@@ -262,6 +295,10 @@ p{
    padding:auto;
    padding-right:auto;
    padding-bottom:auto;
+
+
+   margin-left:33%;
+   margin-top:-190px;
 
    position:relative;
    position:static;
