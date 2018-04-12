@@ -206,8 +206,7 @@ img{
 .newsLink{
     color: black;
     font-size:100%;
-    margin-top:-8%;
-    margin-left:-1.8%;
+    
 }
 
 p{
@@ -216,7 +215,7 @@ p{
 
 .thumbnail {
     width: 23%;
-    margin-top:13%;
+    margin-top:18%;
     margin-bottom:auto;
     margin-right:auto;
     margin-right:74%;
@@ -241,7 +240,7 @@ p{
 .Heading{
    text-align:left;
    margin-left:33%;
-   margin-top:-15%;
+   margin-top:-18.7%;
    position:relative;
    position:static;
    margin-bottom:auto;
