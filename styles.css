@@ -221,7 +221,11 @@ a {
 
 /* News Page Styling */
 
-
+.newsLink{
+    color: black;
+    font-size:100%;
+    
+}
 
 p{
     color:solid #800000;
@@ -233,7 +237,7 @@ p{
 
 .thumbnail {
     width: 23%;
-    margin-top:13%;
+    margin-top:18%;
     margin-bottom:auto;
     margin-right:auto;
 
@@ -282,6 +286,7 @@ p{
 
 .Heading{
    text-align:left;
+
    text-align:auto;
 
 
@@ -299,6 +304,10 @@ p{
 
    margin-left:33%;
    margin-top:-190px;
+
+
+   margin-left:33%;
+   margin-top:-18.7%;
 
    position:relative;
    position:static;
