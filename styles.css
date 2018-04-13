@@ -391,10 +391,6 @@ p{
   border-radius: 50%;
   margin-bottom: 18px;
 }
-.column:hover{
-    background-color:#008080;
-    color: white;
-}
 
 .whole{
   column-count: 3;
@@ -410,9 +406,6 @@ background-color: ;
 
 .companyname{
     font-size: 25px;
-}
-a{
-    text-decoration: none;
 }
 
 @media screen and (max-width: 600px){
