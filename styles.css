@@ -232,15 +232,11 @@ p{
 }
 
 
-
-
-
 .thumbnail {
     width: 23%;
     margin-top:18%;
     margin-right:74%;
     position:relative;
-    position:static;
     display:block;
     border:3px solid #800000;
 
@@ -251,10 +247,11 @@ p{
 .news-item {
     display: inline;
     position:relative;
-    position:static;
     display:block;
     border-width:3px;
     border-color:red;
+    margin-bottom:30%;
+    margin-top:-10%;
 }
 
 .Heading{
@@ -262,7 +259,6 @@ p{
    margin-left:33%;
    margin-top:-18.7%;
    position:relative;
-   position:static;
    display:block;
 }
 
@@ -303,7 +299,7 @@ p{
 #footer {
     font-style: italic;
     text-align: center;
-    margin-top:19%;
+    margin-top:-7%;
 }
 
 /* Contact Us Styles */
