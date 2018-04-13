@@ -238,20 +238,7 @@ p{
 .thumbnail {
     width: 23%;
     margin-top:18%;
-    margin-bottom:auto;
-    margin-right:auto;
-
-
     margin-right:74%;
-    position:relative;
-    position:static;
-    display:block;
-    border:3px solid #800000;
-
-    margin-left:40px;
-
-    margin-right:74%;
-
     position:relative;
     position:static;
     display:block;
@@ -265,54 +252,17 @@ p{
     display: inline;
     position:relative;
     position:static;
-
-
-    margin:auto;
-    display:block;
-   
-
-    padding:auto;
-    margin:auto;
     display:block;
     border-width:3px;
     border-color:red;
-
-
-    margin:auto;
-    display:block;
-   
-
 }
 
 .Heading{
    text-align:left;
-
-   text-align:auto;
-
-
-   margin-left:33%;
-   margin-top:-190px;
-
-   margin-left:400px;
-   margin-top:-190px;
-   padding-top:auto;
-   padding-left:auto;
-   padding:auto;
-   padding-right:auto;
-   padding-bottom:auto;
-
-
-   margin-left:33%;
-   margin-top:-190px;
-
-
    margin-left:33%;
    margin-top:-18.7%;
-
    position:relative;
    position:static;
-   margin-bottom:auto;
-   margin-right:auto;
    display:block;
 }
 
