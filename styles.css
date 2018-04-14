@@ -234,32 +234,25 @@ p{
 
 .thumbnail {
     width: 23%;
-    margin-top:18%;
-    margin-right:74%;
+    padding: 5px 10px;
     position:relative;
-    display:block;
-    border:3px solid #800000;
-
-
-
+    display:inline-block;
+    margin-left:-1%;
 }
 
 .news-item {
-    display: inline;
     position:relative;
-    display:block;
     border-width:3px;
     border-color:red;
-    margin-bottom:30%;
-    margin-top:-10%;
+    border:3px solid #800000;
+    padding: 5px 10px;
 }
 
 .Heading{
    text-align:left;
-   margin-left:33%;
-   margin-top:-18.7%;
    position:relative;
-   display:block;
+   display:inline-block;
+   padding: 5px 10px;
 }
 
 .logo {
@@ -299,7 +292,7 @@ p{
 #footer {
     font-style: italic;
     text-align: center;
-    margin-top:-7%;
+    margin-top:5%;
 }
 
 /* Contact Us Styles */
