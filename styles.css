@@ -359,10 +359,9 @@ background-color: ;
     font-size: 25px;
 }
 
-@media screen and (max-width: 600px){
-  .whole{
+@media screen and (max-width: 580px){
+   .whole{
     column-count: 1;
-  }
-  
+   }
 }
 
