@@ -78,8 +78,13 @@ li a:hover {
     background-color: #000000;
 }
 
-img{
+.image{
+    height: auto;
+    display: block;
+    max-width: 95%;
     margin: auto;
+    text-align: center;
+    border: 3px solid maroon;
 }
 
 #active{
@@ -176,6 +181,11 @@ a {
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
+    border-left: 3px solid maroon;
+}
+
+.back {
+    border-right: 3px solid maroon;
 }
 
 /* Courses Page Styling */
