@@ -238,6 +238,8 @@ p{
     position:relative;
     display:inline-block;
     margin-left:-1%;
+    margin-top:2.7%;
+    margin-bottom:-1.4%;
 }
 
 .news-item {
@@ -246,6 +248,7 @@ p{
     border-color:red;
     border:3px solid #800000;
     padding: 5px 10px;
+    margin-top:3%;
 }
 
 .Heading{
@@ -253,6 +256,7 @@ p{
    position:relative;
    display:inline-block;
    padding: 5px 10px;
+   margin-top:1px;
 }
 
 .logo {
@@ -292,6 +296,7 @@ p{
 #footer {
     font-style: italic;
     text-align: center;
+    margin-bottom:3%;
     margin-top:5%;
 }
 
