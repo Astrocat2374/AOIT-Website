@@ -350,13 +350,16 @@ p{
 .partner, .name, .career, .bio{
     text-align: center;
 }
+
 .company{
-text-align: center;
+text-align:center;
 background-color: ;
 }
 
 .companyname{
     font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
 }
 
 @media screen and (max-width: 580px){
