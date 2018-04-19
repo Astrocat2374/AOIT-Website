@@ -1,6 +1,3 @@
-body{
-    font-family: "Calibri";
-}
 
 /* Formatting the Navbar */
 
@@ -58,22 +55,6 @@ li {
 }
 li{
     display: inline;
-
-
-}
-
-#programming {
-	margin-top: 5%;
-}
-
-.courseImage {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-    border: 3px solid #800000;
-    padding: 10px;
-    width: 75%;
-	height: 15%;
 }
 
 li a:hover {
@@ -182,34 +163,30 @@ a {
 
 #AOITCourses {
     margin-top: 5%;
-    text-align: center;
+    text-align: center
 }
 
 #programming {
-    margin-top: 1%;
-    text-align: center;
+    margin-bottom: 5%;
 }
 
 #Aplus {
-    text-align: center;
+	margin-top: 13%;
 }
 
 #CyberSecurity {
-    text-align: center;
+	margin-top: 2%;
 }
 
 #CISCO {
-    text-align: center;
+	margin-top: 16%;
 }
 
 .courseImage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: 3px solid #800000;
-    padding: 10px;
-    width: 65%;
-    height: 12%;
+	float: left;
+    margin-right: 5px;
+    width: 45%;
+    height: 332px;
 }
 
 #footer {
@@ -278,32 +255,6 @@ p{
 
 
 /* news page styling ^ above */
-
-#AOITCourses {
-	margin-top: 4%;
-	text-align: center;
-}
-
-#programming {
-	margin-top: 2%;
-	text-align: center;
-}
-
-#Aplus {
-	text-align: center;
-}
-
-#CyberSecurity {
-	text-align: center;
-}
-
-#CISCO {
-	text-align: center;
-}
-#footer {
-    font-style: italic;
-    text-align: center;
-}
 
 /* Contact Us Styles */
 
