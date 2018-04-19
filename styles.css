@@ -331,7 +331,7 @@ p{
 
 /* Contact Us Styles */
 
-/*+-+-+-+-+-+-+-+-+- Partner CSS +-+-+-+-+-+-+-+ */
+/*+-+-+-+-+-+-+-+-+- Partner/Advisor CSS +-+-+-+-+-+-+-+ */
 
 .pic{
   height: 180px;
@@ -344,13 +344,16 @@ p{
 }
 
 .whole{
-  column-count: 3;
+  text-align: center;
 }
 
-.partner, .name, .career, .bio{
+.partner, .name, .career,{
     text-align: center;
 }
-
+.comlogo{
+  height: 20%;
+  width: 20%;
+}
 .company{
 text-align:center;
 background-color: ;
@@ -363,8 +366,8 @@ background-color: ;
 }
 
 @media screen and (max-width: 580px){
-   .whole{
-    column-count: 1;
-   }
+    .whole{
+         column-count: 1;
+    }
 }
 
