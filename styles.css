@@ -246,38 +246,40 @@ p{
 }
 
 
-
-
-
 .thumbnail {
-    width: 23%;
-    margin-top:18%;
-    margin-right:74%;
+    width:280px;
+    height:280px;
+    padding: 5px 10px;
     position:relative;
-    position:static;
-    display:block;
-    border:3px solid #800000;
-
-
+    display:inline-block;
+    margin-left:2%;
+    margin-top:1.7%;
 
 }
 
 .news-item {
-    display: inline;
     position:relative;
-    position:static;
-    display:block;
     border-width:3px;
     border-color:red;
+   /*  border:3px solid #800000; */
+    padding: 5px 10px;
+    margin-top:2%;
+}
+
+hr{
+    border:3px solid #800000;
+
 }
 
 .Heading{
    text-align:left;
-   margin-left:33%;
-   margin-top:-18.7%;
    position:relative;
-   position:static;
-   display:block;
+   position:inline;
+   margin-top:-20%;
+   margin-bottom:7.6%;
+   margin-left:26%;  
+   padding: 5px 10px;
+
 }
 
 .logo {
@@ -292,6 +294,34 @@ p{
 
 
 /* news page styling ^ above */
+
+#AOITCourses {
+	margin-top: 4%;
+	text-align: center;
+}
+
+#programming {
+	margin-top: 2%;
+	text-align: center;
+}
+
+#Aplus {
+	text-align: center;
+}
+
+#CyberSecurity {
+	text-align: center;
+}
+
+#CISCO {
+	text-align: center;
+}
+#footer {
+    font-style: italic;
+    text-align: center;
+    margin-bottom:3%;
+    margin-top:5%;
+}
 
 /* Contact Us Styles */
 
