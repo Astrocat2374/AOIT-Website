@@ -233,28 +233,39 @@ p{
 
 
 .thumbnail {
-    width: 23%;
+    width:280px;
+    height:280px;
     padding: 5px 10px;
     position:relative;
     display:inline-block;
-    margin-left:-1%;
+    margin-left:2%;
     margin-top:1.7%;
+
 }
 
 .news-item {
     position:relative;
     border-width:3px;
     border-color:red;
-    border:3px solid #800000;
+   /*  border:3px solid #800000; */
     padding: 5px 10px;
     margin-top:2%;
+}
+
+hr{
+    border:3px solid #800000;
+
 }
 
 .Heading{
    text-align:left;
    position:relative;
-   display:inline-block;
+   position:inline;
+   margin-top:-20%;
+   margin-bottom:7.6%;
+   margin-left:26%;  
    padding: 5px 10px;
+
 }
 
 .logo {
