@@ -373,12 +373,15 @@ hr{
     font-size: 18px;
 }
 .comlogo{
-  height: 20%;
-  width: 20%;
+  height: 250px;
+  width: 250px;
 }
 .company{
 text-align:center;
 background-color: ;
+}
+#everything{
+    column-count:2;
 }
 
 .companyname{
@@ -388,7 +391,7 @@ background-color: ;
 }
 
 @media screen and (max-width: 580px){
-    .whole{
+    #everything{
          column-count: 1;
     }
 }
