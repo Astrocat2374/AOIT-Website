@@ -373,8 +373,8 @@ hr{
     font-size: 18px;
 }
 .comlogo{
-  height: 250px;
-  width: 250px;
+  height: 300px;
+  width: 300px;
 }
 .company{
 text-align:center;
@@ -393,6 +393,14 @@ background-color: ;
 @media screen and (max-width: 580px){
     #everything{
          column-count: 1;
+    }
+    .line{
+    border-left:0;
+    height:0;
+    position: absolute;
+    left:0;
+    margin-left:0;
+    top:0 ;
     }
 }
 
