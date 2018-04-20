@@ -52,19 +52,6 @@ li {
     display: inline;
 }
 
-#programming {
-	margin-top: 5%;
-}
-
-.courseImage {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-    border: 3px solid #800000;
-    padding: 10px;
-    width: 75%;
-	height: 15%;
-}
 li{
     display: inline;
 }
@@ -188,7 +175,7 @@ hr{
     border-right: 3px solid maroon;
 }
 
-/* Courses Page Styling */
+/* Courses Page Styling below */
 
 #AOITCourses {
     margin-top: 5%;
@@ -196,7 +183,7 @@ hr{
 }
 
 #programming {
-	margin-bottom: 15%;
+	margin-bottom: 4%;
 }
 
 #Aplus {
@@ -215,14 +202,14 @@ hr{
 .courseImage {
 	float: left;
     margin-right: 5px;
-    width: 45%;
+    width: 40%;
     height: 332px;
 }
 
 .courseImage2 {
 	float: right;
 	margin-left: 5px;
-	width: 45%;
+	width: 40%;
 	height: 332px;
 }
 
@@ -231,7 +218,7 @@ hr{
     text-align: center;
 }
 
-/* Courses Page Styling */
+/* Courses Page Styling ^ */
 
 /* News Page Styling */
 
@@ -274,8 +261,7 @@ hr{
 .Heading{
    text-align:left;
    position:relative;
-   position:inline;
-   margin-top:-20%;
+   margin-top:-12%;
    margin-bottom:7.6%;
    margin-left:26%;  
    padding: 5px 10px;
@@ -328,7 +314,7 @@ hr{
 #contactImage {
 	width: 100%;
 	display: block;
-	margin-top: 4%;
+	margin-top: 3%;
 	border: 3px solid #800000;
 	height: 450px;
 	margin-left: auto;
@@ -404,20 +390,3 @@ background-color: ;
     }
 }
 
-/* News Article Styles */
-#articleTitle {
-	margin-top: 5%;
-	text-align: center;
-}
-
-#newsArticle {
-	text-align: left;
-	text-align: center
-}
-
-#newsImage {
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	border: 3px solid #800000;
-}
