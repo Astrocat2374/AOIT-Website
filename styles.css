@@ -203,19 +203,27 @@ hr{
 	float: left;
     margin-right: 5px;
     width: 40%;
-    height: 332px;
+    height: auto;
 }
 
 .courseImage2 {
 	float: right;
 	margin-left: 5px;
 	width: 40%;
-	height: 332px;
+	height: auto;
 }
 
 #footer {
     font-style: italic;
     text-align: center;
+}
+
+@media only screen and (max-width: 414px) {
+	.courseImage, .courseImage2 {
+		width: 100%;
+		float: none;
+		height: 10%;
+	}
 }
 
 /* Courses Page Styling ^ */
@@ -281,34 +289,6 @@ hr{
 
 /* news page styling ^ above */
 
-#AOITCourses {
-	margin-top: 4%;
-	text-align: center;
-}
-
-#programming {
-	margin-top: 2%;
-	text-align: center;
-}
-
-#Aplus {
-	text-align: center;
-}
-
-#CyberSecurity {
-	text-align: center;
-}
-
-#CISCO {
-	text-align: center;
-}
-#footer {
-    font-style: italic;
-    text-align: center;
-    margin-bottom:3%;
-    margin-top:5%;
-}
-
 /* Contact Us Styles */
 
 #contactImage {
@@ -316,7 +296,8 @@ hr{
 	display: block;
 	margin-top: 3%;
 	border: 3px solid #800000;
-	height: 450px;
+	height: auto;
+	max-height: 450px;
 	margin-left: auto;
 	margin-right: auto;
 }
