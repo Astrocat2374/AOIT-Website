@@ -203,6 +203,7 @@ a {
 }
 
 .courseImage {
+<<<<<<< HEAD
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -210,6 +211,19 @@ a {
     padding: 10px;
     width: 65%;
     height: 12%;
+=======
+	float: left;
+    margin-right: 5px;
+    width: 40%;
+    height: auto;
+}
+
+.courseImage2 {
+	float: right;
+	margin-left: 5px;
+	width: 40%;
+	height: auto;
+>>>>>>> 60ee74a3341cb9c7f19cd7ce0638ab835d1405f2
 }
 
 #footer {
@@ -217,7 +231,19 @@ a {
     text-align: center;
 }
 
+<<<<<<< HEAD
 /* Courses Page Styling */
+=======
+@media only screen and (max-width: 414px) {
+	.courseImage, .courseImage2 {
+		width: 100%;
+		float: none;
+		height: 10%;
+	}
+}
+
+/* Courses Page Styling ^ */
+>>>>>>> 60ee74a3341cb9c7f19cd7ce0638ab835d1405f2
 
 /* News Page Styling */
 
@@ -262,8 +288,16 @@ p{
    margin-left:33%;
    margin-top:-18.7%;
    position:relative;
+<<<<<<< HEAD
    position:static;
    display:block;
+=======
+   margin-top:-20%;
+   margin-bottom:6.3%;
+   margin-left:26%;  
+   padding: 5px 10px;
+
+>>>>>>> 60ee74a3341cb9c7f19cd7ce0638ab835d1405f2
 }
 
 .logo {
@@ -279,6 +313,7 @@ p{
 
 /* news page styling ^ above */
 
+<<<<<<< HEAD
 #AOITCourses {
 	margin-top: 4%;
 	text-align: center;
@@ -305,6 +340,8 @@ p{
     text-align: center;
 }
 
+=======
+>>>>>>> 60ee74a3341cb9c7f19cd7ce0638ab835d1405f2
 /* Contact Us Styles */
 
 #contactImage {
@@ -312,7 +349,8 @@ p{
 	display: block;
 	margin-top: 4%;
 	border: 3px solid #800000;
-	height: 450px;
+	height: auto;
+	max-height: 450px;
 	margin-left: auto;
 	margin-right: auto;
 }
