@@ -2,7 +2,11 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
-/* Formatting the Navbar */
+hr{
+    color: #800000
+}
+
+/* Navbar Styling */
 
 ul{
     position: fixed;
@@ -17,6 +21,7 @@ ul{
 }
 
 li{
+    display: inline;
     float: left;
 }
 
@@ -30,6 +35,19 @@ li a{
     font-size: 20px;
 }
 
+li a:hover {
+    transition-duration: 500ms;
+    background-color: #000000;
+}
+
+#active{
+    background-color: #800000;
+}
+
+/* Navbar Styling Above */
+
+/* Home Page Styling */
+
 #courses-link{
     text-decoration: underline;
 }
@@ -37,72 +55,6 @@ li a{
 .title {
     text-align: center;
 }
-
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@keyframes fade {
-    from {opacity: 0.3;}
-    to {opacity: 1;}
-}
-
-li {
-    display: inline;
-}
-
-li{
-    display: inline;
-}
-
-li a:hover {
-    transition-duration: 500ms;
-    background-color: #000000;
-}
-
-.image{
-    height: auto;
-    display: block;
-    max-width: 95%;
-    margin: auto;
-    text-align: center;
-    border: 3px solid maroon;
-}
-
-#active{
-    background-color: #800000;
-}
-
-.logo {
-    height: 46px;
-}
-
-.logo-location {
-    background-color: #800000
-}
-
-/* Formatting the slideshow */
-
-.caption{
-    text-align: center;
-    padding-bottom: 20px;
-    padding-top: 10px;
-    font-style: italic;
-    font-size: 25px;
-}
-
-.navbar-link {
-
-    float: left;
-    font-size: 20px;
-    color: #ffffff;
-    display: block;
-    padding: 14px 16px;
-    text-decoration: none;
-    text-align: center;
-}
-
 
 .paragraph{
     padding: 30px;
@@ -112,6 +64,15 @@ li a:hover {
 .subheading{
     padding-left: 30px;
     font-size: 25px;
+}
+
+.image{
+    height: auto;
+    display: block;
+    max-width: 95%;
+    margin: auto;
+    text-align: center;
+    border: 3px solid maroon;
 }
 
 .slide {
@@ -131,8 +92,14 @@ li a:hover {
     padding: none;
 }
 
-hr{
-    color: #800000
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: 0.3;}
+    to {opacity: 1;}
 }
 
 .back, .next {
@@ -155,16 +122,6 @@ hr{
     background-color: #000000CC;
 }
 
- .navbar input[type=text] {
-    float: right;
-    padding: 6px;
-    padding-right: 32px;
-    border: none;
-    margin-top: 8px;
-    margin-right: 16px;
-    font-size: 17px;
-}
-
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
@@ -174,8 +131,9 @@ hr{
 .back {
     border-right: 3px solid maroon;
 }
+/* Home Page Styling Above */
 
-/* Courses Page Styling below */
+/* Courses Page Styling */
 
 .classBorder { 
 	padding-top: 2px;
@@ -232,15 +190,13 @@ hr{
 		height: 10%;
 	}
 }
-
-/* Courses Page Styling ^ */
+/* Courses Page Styling Above */
 
 /* News Page Styling */
 
 .newsLink{
     color: black;
     font-size:100%;
-    
 }
 
 p{
@@ -270,7 +226,6 @@ p{
 
 hr{
     border:3px solid #800000;
-
 }
 
 .Heading{
@@ -283,18 +238,7 @@ hr{
 
 }
 
-.logo {
-    height: 46px;
-    
-
-}
-
-.logo-location {
-    background-color: #800000
-}
-
-
-/* news page styling ^ above */
+/* News Page Styling Above */
 
 /* Contact Us Styles */
 
@@ -321,22 +265,22 @@ hr{
 }
 
 
-/* Contact Us Styles */
+/* Contact Us Styles Above */
 
-/*+-+-+-+-+-+-+-+-+- Partner/Advisor CSS +-+-+-+-+-+-+-+ */
+/* Partners Styling */
 
 .pic{
-  height: 180px;
-  width: 180px;
-  display: table;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 50%;
-  margin-bottom: 18px;
+    height: 180px;
+    width: 180px;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-bottom: 18px;
 }
 
 .whole{
-  text-align: center;
+    text-align: center;
 }
 
 .partner, .name, .career,{
@@ -347,12 +291,12 @@ hr{
     font-size: 18px;
 }
 .comlogo{
-  height: 300px;
-  width: 300px;
+    height: 300px;
+    width: 300px;
 }
 .company{
-text-align:center;
-background-color: ;
+    text-align:center;
+    background-color: ;
 }
 #everything{
     column-count:2;
@@ -378,3 +322,4 @@ background-color: ;
     }
 }
 
+/* Partners Styling Above */
