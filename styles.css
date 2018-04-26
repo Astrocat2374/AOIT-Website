@@ -666,6 +666,9 @@ background-color: ;
 #everything{
     column-count:2;
 }
+#everything2{
+    column-count:2;
+}
 
 .companyname{
     font-size: 25px;
