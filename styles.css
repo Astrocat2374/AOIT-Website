@@ -186,23 +186,24 @@ li a:hover {
 
 #programming {
 	margin-bottom: 15%;
+    margin-bottom: 4%;
 }
 
 #Aplus {
-	margin-top: 3%;
+    margin-top: 3%;
 }
 
 #CyberSecurity {
-	margin-top: 2%;
-	margin-bottom: 11%;
+    margin-top: 2%;
+    margin-bottom: 11%;
 }
 
 #CISCO {
-	margin-top: 3%;
+    margin-top: 3%;
 }
 
 .courseImage {
-	float: left;
+    float: left;
     margin-right: 5px;
     width: 45%;
     height: 332px;
@@ -219,6 +220,10 @@ li a:hover {
 	max-height: 360px;
 	width: 40%;
 	height: auto;
+    float: right;
+    margin-left: 5px;
+    width: 40%;
+    height: auto;
 }
 
 #footer {
@@ -230,11 +235,11 @@ li a:hover {
 /* Courses Page Styling */
 
 @media only screen and (max-width: 414px) {
-	.courseImage, .courseImage2 {
-		width: 100%;
-		float: none;
-		height: 10%;
-	}
+    .courseImage, .courseImage2 {
+        width: 100%;
+        float: none;
+        height: 10%;
+    }
 }
 /* Courses Page Styling Above */
 
@@ -326,11 +331,19 @@ p{
 	height: 450px;
 	margin-left: auto;
 	margin-right: auto;
+    width: 100%;
+    display: block;
+    margin-top: 3%;
+    border: 3px solid #800000;
+    height: auto;
+    max-height: 450px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #contactUsText {
-	margin-top: 4%;
-	text-align: center;
+    margin-top: 4%;
+    text-align: center;
 }
 
 #footer2 {
@@ -387,6 +400,14 @@ p{
 @media screen and (max-width: 580px){
     .whole{
          column-count: 1;
+    }
+    .line{
+    border-left:0;
+    height:0;
+    position: absolute;
+    left:0;
+    margin-left:0;
+    top:0 ;
     }
 }
 
