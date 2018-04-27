@@ -656,12 +656,17 @@ hr{
     font-size: 18px;
 }
 .comlogo{
-  height: 300px;
-  width: 300px;
+     height: 300px;
+     width: 300px;
+}
+.comlogo2{
+     height: 300px;
+     width: 300px;
+     background-color: maroon;
 }
 .company{
-text-align:center;
-background-color: ;
+    text-align:center;
+    background-color: ;
 }
 #everything{
     column-count:2;
