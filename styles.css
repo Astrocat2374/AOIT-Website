@@ -35,7 +35,6 @@ li a{
     font-size: 20px;
 }
 
-<<<<<<< HEAD
 #courses-link{
     text-decoration: underline;
 }
@@ -175,6 +174,11 @@ li a:hover {
 
 /* Courses Page Styling */
 
+.classBorder { 
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
 #AOITCourses {
     margin-top: 5%;
     text-align: center
@@ -202,6 +206,9 @@ li a:hover {
     margin-right: 5px;
     width: 45%;
     height: 332px;
+    width: 40%;
+    max-height: 360px;
+    height: auto;
 }
 
 .courseImage2 {
@@ -209,6 +216,9 @@ li a:hover {
 	margin-left: 5px;
 	width: 45%;
 	height: 332px;
+	max-height: 360px;
+	width: 40%;
+	height: auto;
 }
 
 #footer {
