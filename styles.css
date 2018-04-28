@@ -242,6 +242,14 @@ hr{
 
 /* Contact Us Styles */
 
+#contactUsMessage {
+	max-width: 300px; 
+	max-height: 200px;
+	width: 300px;
+	height: 50px;
+}
+
+
 #contactImage {
 	width: 100%;
 	display: block;
