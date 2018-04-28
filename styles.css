@@ -129,6 +129,9 @@ li a:hover {
     position: relative;
     margin: auto;
     padding: none;
+    border: 3px solid #800000;
+    background-color: #ffffff;
+    padding-top: 5px;
 }
 
 .fade {
