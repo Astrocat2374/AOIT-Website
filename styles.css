@@ -186,6 +186,9 @@ li a:hover {
 /* Courses Page Styling Above */
 
 /* News Page Styling */
+h1{
+    text-align:center;
+}
 
 .newsLink{
     color: black;
