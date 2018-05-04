@@ -389,6 +389,9 @@ hr{
 #everything2{
     column-count:2;
 }
+#everything3{
+    column-count: 2;
+}
 
 .companyname{
     font-size: 25px;
@@ -406,6 +409,9 @@ hr{
          column-count: 1;
     }
     #everything2{
+        column-count: 1;
+    }
+    #everything3{
         column-count: 1;
     }
     
