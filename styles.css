@@ -3,11 +3,11 @@ body{
 }
 
 hr{
-    border: 3px solid #800000;
     color: #800000
 }
 
 /* Navbar Styling */
+
 ul{
     position: fixed;
     top: 0;
@@ -30,11 +30,12 @@ li a{
     padding: 13px 16px;
     color: #ffffff;
     text-align: center;
-    width: 140px;
+    width: 120px;
     text-decoration: none;
     font-size: 20px;
 }
 
+<<<<<<< HEAD
 #courses-link{
     text-decoration: underline;
 }
@@ -74,6 +75,8 @@ li{
     display: inline;
 }
 
+=======
+>>>>>>> 69814e35c06f268c65389a34e657bcd3fcebfb01
 li a:hover {
     transition-duration: 500ms;
     background-color: #000000;
@@ -129,9 +132,6 @@ li a:hover {
     position: relative;
     margin: auto;
     padding: none;
-    border: 3px solid #800000;
-    background-color: #ffffff;
-    padding-top: 5px;
 }
 
 .fade {
@@ -177,18 +177,24 @@ li a:hover {
 
 /* Courses Page Styling */
 
+<<<<<<< HEAD
 .classBorder { 
     padding-top: 2px;
     padding-bottom: 2px;
 }
 
+=======
+>>>>>>> 69814e35c06f268c65389a34e657bcd3fcebfb01
 #AOITCourses {
     margin-top: 5%;
     text-align: center
 }
 
 #programming {
+<<<<<<< HEAD
     margin-bottom: 15%;
+=======
+>>>>>>> 69814e35c06f268c65389a34e657bcd3fcebfb01
     margin-bottom: 4%;
 }
 
@@ -208,14 +214,12 @@ li a:hover {
 .courseImage {
     float: left;
     margin-right: 5px;
-    width: 45%;
-    height: 332px;
     width: 40%;
-    max-height: 360px;
     height: auto;
 }
 
 .courseImage2 {
+<<<<<<< HEAD
     float: right;
     margin-left: 5px;
     width: 45%;
@@ -223,6 +227,8 @@ li a:hover {
     max-height: 360px;
     width: 40%;
     height: auto;
+=======
+>>>>>>> 69814e35c06f268c65389a34e657bcd3fcebfb01
     float: right;
     margin-left: 5px;
     width: 40%;
@@ -233,9 +239,6 @@ li a:hover {
     font-style: italic;
     text-align: center;
 }
-
-
-/* Courses Page Styling */
 
 @media only screen and (max-width: 414px) {
     .courseImage, .courseImage2 {
@@ -259,35 +262,41 @@ p{
 
 
 .thumbnail {
-    width:280px;
+    width:21%;
     height:280px;
-    padding: 5px 10px;
     position:relative;
-    display:inline-block;
     margin-left:2%;
-    padding-top:-3%;
-    padding-bottom:-1%;
-    margin-top:1.5%;
-    margin-bottom:4%;
-
+    margin-top:3%;
+    margin-bottom:2%;
+    padding:auto; 
+    margin:auto;
+    margin-top:1.7%;
 }
 
 .news-item {
     position:relative;
+    border-width:3px;
     border-color:red;
+    margin-top:4%;
+    margin-bottom:12%;
+    padding-bottom:-5%; 
+    padding-top:-6%;
+    padding:auto;
    /*  border:3px solid #800000; */
     padding: 5px 10px;
-    margin-top:6%;
+    margin-top:2%;
+}
+
+hr{
+    border:3px solid #800000;
     margin-bottom:3%;
-    padding-bottom:-6%; 
-    padding-top:-3%;
-    margin:auto; 
 }
 
 .Heading{
    text-align:left;
    position:relative;
    margin-top:-20%;
+<<<<<<< HEAD
    margin-bottom:6.3%;
    margin-left:26%;  
    padding: 5px 10px;
@@ -299,8 +308,30 @@ p{
 #AOITCourses {
     margin-top: 4%;
     text-align: center;
+=======
+   margin-bottom:7.3%;
+   margin-left:27%;
+   display:block;
+>>>>>>> 69814e35c06f268c65389a34e657bcd3fcebfb01
 }
+@media screen and (max-width: 580px){
+    .Heading{
+         text-align:none;
+         margin-top:0%;
+         margin-bottom:0%;
+         margin-left:0%;
+         }
 
+    .thumbnail{
+        width:100%;
+        height:280px;
+        position:;
+    }
+    h3{
+        text-align: center;
+    }
+
+<<<<<<< HEAD
 #programming {
     margin-top: 2%;
     text-align: center;
@@ -322,11 +353,23 @@ p{
     text-align: center;
     margin-bottom:3%;
     margin-top:5%;
+=======
 }
+
+/* News Page Styling Above */
 
 /* Contact Us Styles */
 
+#contactUsMessage {
+	max-width: 300px; 
+	max-height: 200px;
+	width: 300px;
+	height: 50px;
+>>>>>>> 69814e35c06f268c65389a34e657bcd3fcebfb01
+}
+
 #contactImage {
+<<<<<<< HEAD
     width: 100%;
     display: block;
     margin-top: 4%;
@@ -334,6 +377,8 @@ p{
     height: 450px;
     margin-left: auto;
     margin-right: auto;
+=======
+>>>>>>> 69814e35c06f268c65389a34e657bcd3fcebfb01
     width: 100%;
     display: block;
     margin-top: 3%;
@@ -382,19 +427,65 @@ p{
     font-size: 18px;
 }
 .comlogo{
-    height: 20%;
-    width: 20%;
     height: 300px;
     width: 300px;
 }
-
 .company{
     text-align:center;
     background-color: ;
-    height: 300px;
-    width: 300px;
+}
+#everything{
+    column-count:2;
 }
 
+.companyname{
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+@media screen and (max-width: 680px){
+    #everything{
+         column-count: 1;
+    }
+
+    .line{
+        border-left:0;
+        height:0;
+        position: absolute;
+        left:0;
+        margin-left:0;
+        top:0 ;
+    }
+}
+
+/* Partners Styling */
+
+.pic{
+  height: 180px;
+  width: 180px;
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  margin-bottom: 18px;
+}
+
+.whole{
+  text-align: center;
+}
+
+.partner, .name, .career,{
+    text-align: center;
+}
+.name{
+    font-weight: bold;
+    font-size: 18px;
+}
+.comlogo{
+     height: 300px;
+     width: 300px;
+}
 .comlogo2{
      height: 300px;
      width: 300px;
@@ -419,17 +510,26 @@ p{
 #everything2{
     column-count:2;
 }
+#everything3{
+    column-count: 2;
+}
 
 .companyname{
     font-size: 25px;
     font-weight: bolder;
     text-align: center;
 }
+.TopPage{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
 
 @media screen and (max-width: 580px){
-    .whole{
+    #everything{
          column-count: 1;
     }
+<<<<<<< HEAD
     
 }
 
@@ -445,16 +545,20 @@ p{
     display:;
     margin-left:0%;
     margin-top:0%;
+=======
+    #everything2{
+        column-count: 1;
+>>>>>>> 69814e35c06f268c65389a34e657bcd3fcebfb01
     }
-.Heading{
-   text-align:;
-   position:;
-   margin-top:0%;
-   margin-bottom:0%;
-   margin-left:0%;  
-   padding: 0px 0px;
+    #everything3{
+        column-count: 1;
     }
+    
 }
 
+<<<<<<< HEAD
 /* Partners Styling Above */
 
+=======
+/* Partners Styling Above */
+>>>>>>> 69814e35c06f268c65389a34e657bcd3fcebfb01
