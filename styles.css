@@ -58,17 +58,17 @@ li {
 }
 
 #programming {
-	margin-top: 5%;
+    margin-top: 5%;
 }
 
 .courseImage {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border: 3px solid #800000;
     padding: 10px;
     width: 75%;
-	height: 15%;
+    height: 15%;
 }
 li{
     display: inline;
@@ -178,8 +178,8 @@ li a:hover {
 /* Courses Page Styling */
 
 .classBorder { 
-	padding-top: 2px;
-	padding-bottom: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 #AOITCourses {
@@ -188,7 +188,7 @@ li a:hover {
 }
 
 #programming {
-	margin-bottom: 15%;
+    margin-bottom: 15%;
     margin-bottom: 4%;
 }
 
@@ -216,13 +216,13 @@ li a:hover {
 }
 
 .courseImage2 {
-	float: right;
-	margin-left: 5px;
-	width: 45%;
-	height: 332px;
-	max-height: 360px;
-	width: 40%;
-	height: auto;
+    float: right;
+    margin-left: 5px;
+    width: 45%;
+    height: 332px;
+    max-height: 360px;
+    width: 40%;
+    height: auto;
     float: right;
     margin-left: 5px;
     width: 40%;
@@ -297,25 +297,25 @@ p{
 /* News Page Styling Above */
 
 #AOITCourses {
-	margin-top: 4%;
-	text-align: center;
+    margin-top: 4%;
+    text-align: center;
 }
 
 #programming {
-	margin-top: 2%;
-	text-align: center;
+    margin-top: 2%;
+    text-align: center;
 }
 
 #Aplus {
-	text-align: center;
+    text-align: center;
 }
 
 #CyberSecurity {
-	text-align: center;
+    text-align: center;
 }
 
 #CISCO {
-	text-align: center;
+    text-align: center;
 }
 #footer {
     font-style: italic;
@@ -327,13 +327,13 @@ p{
 /* Contact Us Styles */
 
 #contactImage {
-	width: 100%;
-	display: block;
-	margin-top: 4%;
-	border: 3px solid #800000;
-	height: 450px;
-	margin-left: auto;
-	margin-right: auto;
+    width: 100%;
+    display: block;
+    margin-top: 4%;
+    border: 3px solid #800000;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
     display: block;
     margin-top: 3%;
@@ -400,6 +400,15 @@ p{
      width: 300px;
      background-color: maroon;
 }
+
+.TopPAge{
+    text-align: center;
+}
+
+.TopPAge2{
+    text-align: center;
+}
+
 .company{
     text-align:center;
     background-color: ;
@@ -424,7 +433,7 @@ p{
     
 }
 
-<<<<<<< HEAD
+
 /* Partners Styling Above */
 
 @media screen and (max-width: 700px){
@@ -446,6 +455,6 @@ p{
    padding: 0px 0px;
     }
 }
-=======
+
 /* Partners Styling Above */
->>>>>>> 54865c00f232e62ccc4d9d4b4943f5e0a24dda77
+
