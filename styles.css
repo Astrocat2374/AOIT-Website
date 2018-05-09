@@ -188,6 +188,7 @@ li a:hover {
 /* News Page Styling */
 h1{
     text-align:center;
+    margin-bottom:-2%;
 }
 
 .newsLink{
@@ -224,15 +225,15 @@ p{
 }
 
 hr{
-    border:3px solid #800000;
-    margin-bottom:1%;
-    margin-top:0.6%;
+    border:2px solid #800000;
+    margin-bottom:0.5%;
+    margin-top:6.8%;
 }
 
 .Heading{
    text-align:left;
    position:relative;
-   margin-top:-20%;
+   margin-top:-24%;
    margin-bottom:7.3%;
    margin-left:27%;
    display:block;
