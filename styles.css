@@ -36,7 +36,7 @@ li a{
 }
 
 li a:hover {
-    transition-duration: 500ms;
+    transition-duration: 1000ms;
     background-color: #000000;
 }
 
