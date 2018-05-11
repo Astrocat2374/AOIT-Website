@@ -413,7 +413,7 @@ hr{
 .comlogo2{
      height: 300px;
      width: 300px;
-     background-color: maroon;
+     background-color:;
 }
 .company{
     text-align:center;
@@ -424,6 +424,9 @@ hr{
 }
 #everything2{
     column-count:2;
+}
+#everything3{
+    column-count: 2;
 }
 
 .companyname{
@@ -442,6 +445,9 @@ hr{
          column-count: 1;
     }
     #everything2{
+        column-count: 1;
+    }
+    #everything3{
         column-count: 1;
     }
     
