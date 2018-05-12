@@ -35,48 +35,6 @@ li a{
     font-size: 20px;
 }
 
-<<<<<<< HEAD
-#courses-link{
-    text-decoration: underline;
-}
-
-.title {
-    text-align: center;
-}
-
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@keyframes fade {
-    from {opacity: 0.3;}
-    to {opacity: 1;}
-}
-
-li {
-    display: inline;
-}
-
-#programming {
-    margin-top: 5%;
-}
-
-.courseImage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: 3px solid #800000;
-    padding: 10px;
-    width: 75%;
-    height: 15%;
-}
-li{
-    display: inline;
-}
-
-=======
->>>>>>> 69814e35c06f268c65389a34e657bcd3fcebfb01
 li a:hover {
     transition-duration: 500ms;
     background-color: #000000;
@@ -177,24 +135,12 @@ li a:hover {
 
 /* Courses Page Styling */
 
-<<<<<<< HEAD
-.classBorder { 
-    padding-top: 2px;
-    padding-bottom: 2px;
-}
-
-=======
->>>>>>> 69814e35c06f268c65389a34e657bcd3fcebfb01
 #AOITCourses {
     margin-top: 5%;
     text-align: center
 }
 
 #programming {
-<<<<<<< HEAD
-    margin-bottom: 15%;
-=======
->>>>>>> 69814e35c06f268c65389a34e657bcd3fcebfb01
     margin-bottom: 4%;
 }
 
@@ -219,16 +165,6 @@ li a:hover {
 }
 
 .courseImage2 {
-<<<<<<< HEAD
-    float: right;
-    margin-left: 5px;
-    width: 45%;
-    height: 332px;
-    max-height: 360px;
-    width: 40%;
-    height: auto;
-=======
->>>>>>> 69814e35c06f268c65389a34e657bcd3fcebfb01
     float: right;
     margin-left: 5px;
     width: 40%;
@@ -296,23 +232,9 @@ hr{
    text-align:left;
    position:relative;
    margin-top:-20%;
-<<<<<<< HEAD
-   margin-bottom:6.3%;
-   margin-left:26%;  
-   padding: 5px 10px;
-
-}
-
-/* News Page Styling Above */
-
-#AOITCourses {
-    margin-top: 4%;
-    text-align: center;
-=======
    margin-bottom:7.3%;
    margin-left:27%;
    display:block;
->>>>>>> 69814e35c06f268c65389a34e657bcd3fcebfb01
 }
 @media screen and (max-width: 580px){
     .Heading{
@@ -331,29 +253,6 @@ hr{
         text-align: center;
     }
 
-<<<<<<< HEAD
-#programming {
-    margin-top: 2%;
-    text-align: center;
-}
-
-#Aplus {
-    text-align: center;
-}
-
-#CyberSecurity {
-    text-align: center;
-}
-
-#CISCO {
-    text-align: center;
-}
-#footer {
-    font-style: italic;
-    text-align: center;
-    margin-bottom:3%;
-    margin-top:5%;
-=======
 }
 
 /* News Page Styling Above */
@@ -361,24 +260,13 @@ hr{
 /* Contact Us Styles */
 
 #contactUsMessage {
-	max-width: 300px; 
-	max-height: 200px;
-	width: 300px;
-	height: 50px;
->>>>>>> 69814e35c06f268c65389a34e657bcd3fcebfb01
+    max-width: 300px; 
+    max-height: 200px;
+    width: 300px;
+    height: 50px;
 }
 
 #contactImage {
-<<<<<<< HEAD
-    width: 100%;
-    display: block;
-    margin-top: 4%;
-    border: 3px solid #800000;
-    height: 450px;
-    margin-left: auto;
-    margin-right: auto;
-=======
->>>>>>> 69814e35c06f268c65389a34e657bcd3fcebfb01
     width: 100%;
     display: block;
     margin-top: 3%;
@@ -491,15 +379,6 @@ hr{
      width: 300px;
      background-color: maroon;
 }
-
-.TopPAge{
-    text-align: center;
-}
-
-.TopPAge2{
-    text-align: center;
-}
-
 .company{
     text-align:center;
     background-color: ;
@@ -529,36 +408,19 @@ hr{
     #everything{
          column-count: 1;
     }
-<<<<<<< HEAD
-    
-}
-
-
-/* Partners Styling Above */
-
-@media screen and (max-width: 700px){
-.thumbnail{
-    width:100%;
-    height:300px;
-    padding: 0px 0px;
-    position:;
-    display:;
-    margin-left:0%;
-    margin-top:0%;
-=======
     #everything2{
         column-count: 1;
->>>>>>> 69814e35c06f268c65389a34e657bcd3fcebfb01
     }
     #everything3{
         column-count: 1;
     }
-    
+    .comlogo{
+        width: 100%;
+        height: 50%
+    }
+    .comlogo2{
+        width: 100%;
+    }
 }
 
-<<<<<<< HEAD
 /* Partners Styling Above */
-
-=======
-/* Partners Styling Above */
->>>>>>> 69814e35c06f268c65389a34e657bcd3fcebfb01
