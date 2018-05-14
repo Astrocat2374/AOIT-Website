@@ -303,10 +303,17 @@ hr{
 }
 
 #contactUsMessage {
+<<<<<<< HEAD
+    max-width: 300px; 
+    max-height: 200px;
+    width: 300px;
+    height: 50px;
+=======
 	min-width: 350px; 
 	min-height: 100px;
 	max-width: 350px; 
 	max-height: 100px;
+>>>>>>> d9d256153771bdb46b6289e6e53fe62428a2b82d
 }
 
 #contactImage {
@@ -447,7 +454,7 @@ hr{
     font-size: 50px;
 }
 
-@media screen and (max-width: 580px){
+@media screen and (max-width: 833px){
     #everything{
          column-count: 1;
     }
@@ -457,7 +464,13 @@ hr{
     #everything3{
         column-count: 1;
     }
-    
+    .comlogo{
+        width: 100%;
+        height: 50%
+    }
+    .comlogo2{
+        width: 100%;
+    }
 }
 
 /* Partners Styling Above */
