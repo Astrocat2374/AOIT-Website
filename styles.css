@@ -452,7 +452,7 @@ hr{
     font-size: 50px;
 }
 
-@media screen and (max-width: 833px){
+@media screen and (max-width: 600px){
     #everything{
          column-count: 1;
     }
@@ -460,7 +460,7 @@ hr{
         column-count: 1;
     }
     #everything3{
-        column-count: 1;
+        column-count: 1
     }
     .comlogo{
         width: 100%;
@@ -472,3 +472,8 @@ hr{
 }
 
 /* Partners Styling Above */
+
+@media screen and (max-width: 833){
+
+    }
+}
