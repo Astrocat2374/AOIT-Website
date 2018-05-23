@@ -303,17 +303,15 @@ hr{
 }
 
 #contactUsMessage {
-<<<<<<< HEAD
     max-width: 300px; 
     max-height: 200px;
     width: 300px;
     height: 50px;
-=======
 	min-width: 350px; 
 	min-height: 100px;
 	max-width: 350px; 
 	max-height: 100px;
->>>>>>> d9d256153771bdb46b6289e6e53fe62428a2b82d
+
 }
 
 #contactImage {
